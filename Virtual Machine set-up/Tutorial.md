@@ -23,7 +23,8 @@
 
 
 
-### Now that we have VirtualBox, let's download the Unbuntu Linux environment
+### Now that we have VirtualBox, let's download the Unbuntu Linux operating system (OS)
+* Go to the [Ubuntu Website](https://ubuntu.com/)
 
 
 
