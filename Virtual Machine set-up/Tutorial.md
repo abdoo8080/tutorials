@@ -78,7 +78,9 @@
 ![image](https://user-images.githubusercontent.com/49121005/109457333-4b8ce880-7a20-11eb-9377-6adcb698e29c.png)
 
 * For **Storage on physical hard disk**, select **Dynamically allocated**. Click **Continue**.
- * *Note*: this will dynamically take up what it needs, rather than a fixed space.
+  * *Note*: this will dynamically take up what it needs, rather than a fixed space.
+ * ![image](https://user-images.githubusercontent.com/49121005/109457936-73c91700-7a21-11eb-9d76-cd7143a60a05.png)
+
 
 * **File location and size** is for hardware space (storage) allocated to the virtual machine. If you will be using Vivado/Vitis environments, give it at least 160GB of storage. The more, the better. *This allocation of storage **can not** be changed once set*.
 
