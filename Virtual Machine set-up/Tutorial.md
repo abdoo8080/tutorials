@@ -56,6 +56,12 @@
 * Open the VirtualBox application, which should open up like this:
 ![image](https://user-images.githubusercontent.com/49121005/109455782-f7343980-7a1c-11eb-9453-4233420c1bfa.png)
 
-## So far we have VirtualBox and the Ubuntu 18.04.2 Linux OS file installed. Let's configure VirtualBox so we can run Linux
+* Click on new and a small GUI titled **Name and operating system** will pop up
+ * **Name** - give it a descriptive name. I named it after the version number
+ * **Machine Folder** - this is where the Virtual Machine will be stored
+ * **Type** - Linux
+ * **Version** - Ubuntu (64-bit)
+ 
+![image](https://user-images.githubusercontent.com/49121005/109456021-89d4d880-7a1d-11eb-9565-d2a9301eb87c.png)
 
 
