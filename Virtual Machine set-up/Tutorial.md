@@ -56,7 +56,7 @@
 * Open the VirtualBox application, which should open up like this:
 ![image](https://user-images.githubusercontent.com/49121005/109455782-f7343980-7a1c-11eb-9453-4233420c1bfa.png)
 
-* Click on new and a small GUI titled **Name and operating system** will pop up
+* Click on **New** and a small GUI titled **Name and operating system** will pop up
  * **Name** - give it a descriptive name. I named it after the version number
  * **Machine Folder** - this is where the Virtual Machine will be stored
  * **Type** - Linux
