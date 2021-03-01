@@ -27,14 +27,20 @@
 * Go to the [Ubuntu Website](https://ubuntu.com/)
 * In the navigation bar, click on **Developer** then **Develop on Ubuntu**
 
-
 ![image](https://user-images.githubusercontent.com/49121005/109452930-6b1f1380-7a16-11eb-882a-e174d46e9fb3.png)
 
 * Then click on **Get Ubuntu now**
+
 ![image](https://user-images.githubusercontent.com/49121005/109453018-a4f01a00-7a16-11eb-9d14-8489adc99f31.png)
 
 * Scroll down to the **Easy ways to switch to Ubuntu** section and click on **Software Updater**
+
 ![image](https://user-images.githubusercontent.com/49121005/109454351-a96a0200-7a19-11eb-9c6e-770c7d4fd75f.png)
+
+* Under the **Before you start** section, click on **Ubuntu 18.04 LTS** link
+
+![image](https://user-images.githubusercontent.com/49121005/109454575-24cbb380-7a1a-11eb-853b-4e18b9f32045.png)
+
 
 
 
