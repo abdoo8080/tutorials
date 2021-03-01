@@ -82,7 +82,7 @@
 ![image](https://user-images.githubusercontent.com/49121005/109457936-73c91700-7a21-11eb-9d76-cd7143a60a05.png)
 
 
-* **File location and size** is for the path of the Linux file you downloaded earlier (**ubuntu-18.04.2-desktop-amd64.iso**) and hardware space (storage) allocated to the virtual machine. If you will be using Vivado/Vitis environments, give it at least 160GB of storage. The more, the better. *This allocation of storage **can not** be changed once set*. Click **Create** once done
+* **File location and size** is for the hardware space (storage) allocated to the virtual machine. If you will be using Vivado/Vitis environments, give it at least 160GB of storage. The more, the better. *This allocation of storage **can not** be changed once set*. Click **Create** once done
 
 ![image](https://user-images.githubusercontent.com/49121005/109457827-3b293d80-7a21-11eb-9435-8250b0237454.png)
 
@@ -94,6 +94,26 @@
 * Go to **Settings** then **System** then **Processor**. The **Processor(s)** bar lets you select how many CPUs you want to give the virtual machine. I selected 4. Remember that Vivado/Vitis require a lot of processing especially when compiling things. The more you can give it the better. You may just have to play with it to find the right spot.
 
 ![image](https://user-images.githubusercontent.com/49121005/109458986-82183280-7a23-11eb-9d52-c0c4685d2573.png)
+
+## Let's start this thing up.
+* Click on **Start** (with the green arrow)
+* You will be prompted to enter a file. This is the **.iso** file you downloaded earlier.
+
+![image](https://user-images.githubusercontent.com/49121005/109459362-3e71f880-7a24-11eb-87e3-e409c2fa6247.png)
+
+* Click on the yellow folder icon then click on **Add** and go locate wherever you put the **.iso** file and select it. Then click **Start**. 
+
+![image](https://user-images.githubusercontent.com/49121005/109459562-a3c5e980-7a24-11eb-96e9-bd9666451aa7.png)
+
+* Then Ubuntu will get powered up. It may take up some time to boot up.
+* Once powered up, you will be prompted for some simple configurations such as Language, Time Zone, etc..
+
+* Select **Install Ubuntu** when you get to the following configuration page:
+
+![image](https://user-images.githubusercontent.com/49121005/109459863-38304c00-7a25-11eb-956e-ab26973a7b3d.png)
+
+
+
 
 
 
