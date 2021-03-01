@@ -64,4 +64,15 @@
  
 ![image](https://user-images.githubusercontent.com/49121005/109456021-89d4d880-7a1d-11eb-9565-d2a9301eb87c.png)
 
+* Click **Continue**. For **Memory size** I recommend you give it at least 8GB (8192MB)of your memory. Click **Continue**.
+ * *Note* - if you need to free up that memory space later, you can re-adjust it at anytime in the VirtualBox settings
+
+![image](https://user-images.githubusercontent.com/49121005/109456783-28156e00-7a1f-11eb-92ea-7b5d502b673e.png)
+
+**Hard disk** - leave as is
+
+![image](https://user-images.githubusercontent.com/49121005/109456902-6743bf00-7a1f-11eb-9cd6-ff95e91fcc65.png)
+
+
+
 
