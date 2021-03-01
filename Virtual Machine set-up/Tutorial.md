@@ -25,6 +25,8 @@
 
 ### Now that we have VirtualBox, let's download the Unbuntu Linux operating system (OS)
 * Go to the [Ubuntu Website](https://ubuntu.com/)
+* In the navigation bar, click on **Developer** then **Develop on Ubuntu**
+* 
 
 
 
