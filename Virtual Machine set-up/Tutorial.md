@@ -9,6 +9,6 @@
 
 ### Steps:
 * Go to [VirtualBox Website](https://www.virtualbox.org/)
-* Click on the big blue *Download VirtualBox x.x* where *x.x* is the version number
-* Select *OS X hosts* (this is for a mac host)
+* Click on the big blue **Download VirtualBox x.x** where **x.x** is the version number
+* Select **OS X hosts** (this is for a mac host)
 
