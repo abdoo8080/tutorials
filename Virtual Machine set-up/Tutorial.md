@@ -6,3 +6,7 @@
 * At least 12GB of storage available for VirutalBox
 * At least 160GB of storage available for the Vivado & Vitis environments
 
+
+### Step 1:
+* Go to [VirtualBox Website](https://www.virtualbox.org/)
+
