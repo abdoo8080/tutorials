@@ -41,7 +41,8 @@
 
 ![image](https://user-images.githubusercontent.com/49121005/109454575-24cbb380-7a1a-11eb-853b-4e18b9f32045.png)
 
-
+* Scroll down to **Get Ubuntu 18.04.4 LTS** section and under **Download Ubuntu 18.04.4 LTS** click on the first link about ISOs and flashable images
+![image](https://user-images.githubusercontent.com/49121005/109455027-47120100-7a1b-11eb-8e30-7436ffc86f97.png)
 
 
 
