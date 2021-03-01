@@ -115,9 +115,13 @@
 * Then for the following page, choose the selected options:
 ![image](https://user-images.githubusercontent.com/49121005/109460041-9eb56a00-7a25-11eb-98b0-4ac6f8926bd3.png)
 
-* On the following page, choose **Erase disk and install Ubuntu**. Then click **Install Now**. Then click **Continue** for *writing the changes to disks*.
+* On the following page, choose **Erase disk and install Ubuntu**. Then click **Install Now**.
 
 ![image](https://user-images.githubusercontent.com/49121005/109460159-c99fbe00-7a25-11eb-8f25-9e4bdbd27884.png)
+
+* Then click **Continue** for *writing the changes to disks*.
+
+![image](https://user-images.githubusercontent.com/49121005/109460639-86921a80-7a26-11eb-89d3-46ed4dc81c5e.png)
 
 
 * The rest is straight forward.
