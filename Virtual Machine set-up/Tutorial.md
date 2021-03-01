@@ -115,10 +115,11 @@
 * Then for the following page, choose the selected options:
 ![image](https://user-images.githubusercontent.com/49121005/109460041-9eb56a00-7a25-11eb-98b0-4ac6f8926bd3.png)
 
-* On the following page, choose **Erase disk and install Ubuntu**. Then click **Install Now**. Then click **Continue** for *writing the changes to disks*
+* On the following page, choose **Erase disk and install Ubuntu**. Then click **Install Now**. Then click **Continue** for *writing the changes to disks**
 ![image](https://user-images.githubusercontent.com/49121005/109460159-c99fbe00-7a25-11eb-8f25-9e4bdbd27884.png)
 
-* The rest is straight forwared.
+
+* The rest is straight forward.
 
 ## That is it. We're done! We just installed Oracle VirtualBox and Ubuntu 18.04.2 to run a fully functiong Linux Virtual Machine.
 
