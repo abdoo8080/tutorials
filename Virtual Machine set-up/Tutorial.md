@@ -41,7 +41,8 @@
 
 ![image](https://user-images.githubusercontent.com/49121005/109454575-24cbb380-7a1a-11eb-853b-4e18b9f32045.png)
 
-* Scroll down to **Get Ubuntu 18.04.4 LTS** section and under **Download Ubuntu 18.04.4 LTS** click on the first link about ISOs and flashable images
+* Scroll down to **Get Ubuntu 18.04.4 LTS** section and under **Download Ubuntu 18.04.4 LTS** click on the first link about ISOs and flashable images - http://releases.ubuntu.com/18.04.4/
+
 ![image](https://user-images.githubusercontent.com/49121005/109455027-47120100-7a1b-11eb-8e30-7436ffc86f97.png)
 
 * Download the **ubuntu-18.04.2-desktop-amd64.iso** file which is 1.9GB (In orange)
@@ -49,6 +50,6 @@
 ![image](https://user-images.githubusercontent.com/49121005/109455410-2c8c5780-7a1c-11eb-915f-8d15d1d6e950.png)
 
 
-
+## So far we have VirtualBox and the Ubuntu 18.04.2 Linux OS file installed. Let's configure VirtualBox so we can run Linux
 
 
