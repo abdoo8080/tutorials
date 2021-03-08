@@ -1,9 +1,9 @@
 # How to Install a Linux Virtual Machine 
 #### In this tutorial we will be installing an Ubuntu 18.04.2 Linux virtual machine via the Oracle VirtualBox tool. This virtual machine will be used later to download the Vitis & Vivado environments. Although this tutorial is for mac users, Windows users can benefit from this as well. The tutorial is split into 3 sections: VirtualBox, Ubuntu installations, and how to configure VirtualBox to run the Ubuntu Linux OS.
 
-### Prerequistes
+### Prerequisites
 * At least 8GB of RAM (recommended 16GB)
-* At least 12GB of storage available for VirutalBox
+* At least 12GB of storage available for VirtualBox
 * At least 160GB of storage available for the Vivado & Vitis environments
 
 
@@ -23,7 +23,7 @@
 
 
 
-## Now that we have VirtualBox, let's download the Unbuntu Linux operating system (OS)
+## Now that we have VirtualBox, let's download the Ubuntu Linux operating system (OS)
 * Go to the [Ubuntu Website](https://ubuntu.com/)
 * In the navigation bar, click on **Developer** then **Develop on Ubuntu**
 
@@ -126,11 +126,4 @@
 
 * The rest is straight forward.
 
-## That is it. We're done! We just installed Oracle VirtualBox and Ubuntu 18.04.2 to run a fully functiong Linux Virtual Machine.
-
-
-
-
-
-
-
+## That is it. We're done! We just installed Oracle VirtualBox and Ubuntu 18.04.2 to run a fully functioning Linux Virtual Machine.
