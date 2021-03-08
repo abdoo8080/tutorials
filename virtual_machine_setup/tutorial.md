@@ -1,3 +1,4 @@
+
 # How to Install a Linux Virtual Machine 
 #### In this tutorial we will be installing an Ubuntu 18.04.2 Linux virtual machine via the Oracle VirtualBox tool. This virtual machine will be used later to download the Vitis & Vivado environments. Although this tutorial is for mac users, Windows users can benefit from this as well. The tutorial is split into 3 sections: VirtualBox, Ubuntu installations, and how to configure VirtualBox to run the Ubuntu Linux OS.
 
