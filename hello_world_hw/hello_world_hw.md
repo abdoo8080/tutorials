@@ -1,6 +1,8 @@
 # Hello World Hardware Design in Vivado
+## Description
+
 ## Pre-requisites
-- Setting up VM Environment
+- [Setting up VM Environment](../Virtual%20Machine%20Set-up/Tutorial.md)
 - Installing Vitis & Vivado on the VM Environment
 - Installing the Ultra96v2 bdf Files
 
@@ -17,7 +19,7 @@ vivado
 5. Name your project "hello_world_hw" and save it under your Desktop folder. Replace `<username>` with your user name. Hit `Next`.
 ![Set project name and location](name.png "Name your project hello_world_hw")
 6. The next window specifies the project type. We're starting from scratch, so leave `RTL Project` selected and hit `Next`.
-7. On the next window, we will select the Ultra96v2 development board as our target device. Switch to the `Boards` tab and select `Ultra96v2 Single Board Computer`. If you don't see the board, please go back to [Installing the Ultra96v2 bdf Files]() tutorial and ensure that they were installed correctly. Hit `Next`.
+7. On the next window, we will select the Ultra96v2 development board as our target device. Switch to the `Boards` tab and select `Ultra96v2 Single Board Computer`. If you don't see the board, please go back to [Installing Vitis & Vivado on the VM Environment]() tutorial and ensure that you installed the Ultra96v2 bdf files correctly. Hit `Next`.
 ![Select Ultra96v2 board under Boards tab](board_selection.png "Select Ultra96v2 board")
 8. The next window shows a summary of our project. It should look like the window below. Hit `Finish`.
 ![Project summary](summary.png "Project summary")
