@@ -1,6 +1,7 @@
-# Hello World Hardware Design in Vivado
+# Install Vitis and Vivado IDEs
 ## Description
 This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubuntu VM. The installation requires a lot of space, so make to sure to follow the pre-requisite tutorials and satisfy the requirements. Depending on your internet speed and VM specs, the steps in this tutorial may take more than 3 hours.
+
 ## Pre-requisites
 - [Setting up VM Environment](../virtual_machine_setup/tutorial.md)
 
@@ -33,6 +34,12 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
 ![Summary page](summary.png "Hit `Install`")
 12. A window will pop up to notify you when the installation is complete. Hit `OK` to close the window.
 13. Xilinx Information Center will pop-up asking you to install updates. Ignore the updates for now and close the window.
+14. Run the following commands to install a number of necessary packages for the Vitis tools:
+    ```bash
+    cd /tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
+    sudo installLibs.sh
+    sudo apt install make
+    ```
 14. Now that Vitis and Vivado are installed, the only step left is to add the bdf files for the Ultra96v2. Those files contains necessary information for Vivado to target the Ultra96v2 board for hardware designs. Open up a terminal and run the following commands:
     ```bash
     sudo apt install git
@@ -40,7 +47,8 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
     cd ~/project/2020.2
     git clone https://github.com/Avnet/bdf
     sudo cp -r ~/project/2020.2/bdf/ultra96v2 /tools/Xilinx/Vivado/2020.2/data/boards/board_files
+    cd /tools/Xilinx/Vitis/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers
+    sudo ./install_drivers
     ```
-
 ## Next Steps
 Now that you have installed Vitis and Vivado IDEs, you can move on to the next tutorial and create a simple [Hello World Hardware Design in Vivado](../hello_world_hw/hello_world_hw.md).
