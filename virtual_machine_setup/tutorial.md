@@ -44,7 +44,6 @@
 * Scroll down to **Get Ubuntu 18.04.4 LTS** section and under **Download Ubuntu 18.04.4 LTS** click on the first link about ISOs and flashable images - http://releases.ubuntu.com/18.04.4/
 
 ![](ubuntu_versions.jpg)
-![image](https://user-images.githubusercontent.com/49121005/109455027-47120100-7a1b-11eb-8e30-7436ffc86f97.png)
 
 * Download the **ubuntu-18.04.2-desktop-amd64.iso** file which is 1.9GB (In orange)
 
