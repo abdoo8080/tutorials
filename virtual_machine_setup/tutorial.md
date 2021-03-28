@@ -12,7 +12,7 @@
 * Go to [VirtualBox Website](https://www.virtualbox.org/)
 * Click on the big blue **Download VirtualBox x.x** where **x.x** is the version number
 * Select **OS X hosts** (this is for a mac host)
-
+![](virtalboxdownload.jpg)
 ![image](https://user-images.githubusercontent.com/49121005/109451227-97389580-7a12-11eb-90b2-05fa507061fc.png)
 
 
