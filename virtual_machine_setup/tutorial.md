@@ -32,10 +32,10 @@
 * Then click on **Get Ubuntu now**
 
 ![](ubuntu_desktop.jpg)
-![image](https://user-images.githubusercontent.com/49121005/109453018-a4f01a00-7a16-11eb-9d14-8489adc99f31.png)
 
 * Scroll down to the **Easy ways to switch to Ubuntu** section and click on **Software Updater**
 
+![](3ways_to_switch.jpg)
 ![image](https://user-images.githubusercontent.com/49121005/109454351-a96a0200-7a19-11eb-9c6e-770c7d4fd75f.png)
 
 * Under the **Before you start** section, click on **Ubuntu 18.04 LTS** link
