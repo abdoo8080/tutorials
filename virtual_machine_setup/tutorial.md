@@ -47,6 +47,7 @@
 
 * Download the **ubuntu-18.04.2-desktop-amd64.iso** file which is 1.9GB (In orange)
 
+![](ubuntu_desktopamd64.jpg)
 ![image](https://user-images.githubusercontent.com/49121005/109455410-2c8c5780-7a1c-11eb-915f-8d15d1d6e950.png)
 
 
