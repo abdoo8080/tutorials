@@ -54,8 +54,8 @@
 ## So far we have VirtualBox and the Ubuntu 18.04.2 Linux OS file installed. Let's configure VirtualBox so we can run Linux
 
 * Open the VirtualBox application, which should open up like this:
+
 ![](peng.jpg)
-![image](https://user-images.githubusercontent.com/49121005/109455782-f7343980-7a1c-11eb-9453-4233420c1bfa.png)
 
 * Click on **New** and a small GUI titled **Name and operating system** will pop up
  * **Name** - give it a descriptive name. I named it after the version number
