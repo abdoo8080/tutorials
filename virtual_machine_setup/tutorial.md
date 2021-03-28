@@ -36,10 +36,10 @@
 * Scroll down to the **Easy ways to switch to Ubuntu** section and click on **Software Updater**
 
 ![](3ways_to_switch.jpg)
-![image](https://user-images.githubusercontent.com/49121005/109454351-a96a0200-7a19-11eb-9c6e-770c7d4fd75f.png)
 
 * Under the **Before you start** section, click on **Ubuntu 18.04 LTS** link
 
+![](before_you_start.jpg)
 ![image](https://user-images.githubusercontent.com/49121005/109454575-24cbb380-7a1a-11eb-853b-4e18b9f32045.png)
 
 * Scroll down to **Get Ubuntu 18.04.4 LTS** section and under **Download Ubuntu 18.04.4 LTS** click on the first link about ISOs and flashable images - http://releases.ubuntu.com/18.04.4/
