@@ -28,10 +28,10 @@
 * In the navigation bar, click on **Developer** then **Develop on Ubuntu**
 
 ![](ubuntu_1.jpg)
-![image](https://user-images.githubusercontent.com/49121005/109452930-6b1f1380-7a16-11eb-882a-e174d46e9fb3.png)
 
 * Then click on **Get Ubuntu now**
 
+![](ubuntu_desktop.jpg)
 ![image](https://user-images.githubusercontent.com/49121005/109453018-a4f01a00-7a16-11eb-9d14-8489adc99f31.png)
 
 * Scroll down to the **Easy ways to switch to Ubuntu** section and click on **Software Updater**
