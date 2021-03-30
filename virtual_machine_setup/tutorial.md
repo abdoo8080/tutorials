@@ -68,33 +68,33 @@
 * Click **Continue**. For **Memory size** I recommend you give it at least 8GB (8192MB)of your memory. Click **Continue**.
  * *Note* - if you need to free up some memory space later, you can re-adjust it at anytime in the VirtualBox settings
 
-![image](https://user-images.githubusercontent.com/49121005/109456783-28156e00-7a1f-11eb-92ea-7b5d502b673e.png)
+![](memory_size.jpg)
 
 * For the **Hard disk** options, leave as is (**Create a virtual hard disk now**). Click **Create**.
 
-![image](https://user-images.githubusercontent.com/49121005/109456902-6743bf00-7a1f-11eb-9cd6-ff95e91fcc65.png)
+![](hard_disk.jpg)
 
 * **Hard disk file type** - select **VDI (VirtualBox Disk Image)**. Click **Continue**.
 
-![image](https://user-images.githubusercontent.com/49121005/109457333-4b8ce880-7a20-11eb-9377-6adcb698e29c.png)
+![](hard_disk_file_type.jpg)
 
 * For **Storage on physical hard disk**, select **Dynamically allocated**. Click **Continue**.
   * *Note*: this will dynamically take up what it needs, rather than a fixed space.
-![image](https://user-images.githubusercontent.com/49121005/109457936-73c91700-7a21-11eb-9d76-cd7143a60a05.png)
+![](storage_on_phydisk.jpg)
 
 
 * **File location and size** is for the hardware space (storage) allocated to the virtual machine. If you will be using Vivado/Vitis environments, give it at least 160GB of storage. The more, the better. *This allocation of storage **can not** be changed once set*. Click **Create** once done
 
-![image](https://user-images.githubusercontent.com/49121005/109457827-3b293d80-7a21-11eb-9435-8250b0237454.png)
+![](file_locn_and_size.jpg)
 
 * And now we have our virtual machine. You should see something like this:
  
-![image](https://user-images.githubusercontent.com/49121005/109458639-cbb44d80-7a22-11eb-844a-fe7bc4415d2e.png)
+![](vm_with_ubuntu.jpg)
 
 #### Let's configure the number of processors allocated to the virtual machine. 
 * Go to **Settings** then **System** then **Processor**. The **Processor(s)** bar lets you select how many CPUs you want to give the virtual machine. I selected 4. Remember that Vivado/Vitis require a lot of processing especially when compiling things. The more you can give it the better. You may just have to play with it to find the right spot.
 
-![image](https://user-images.githubusercontent.com/49121005/109458986-82183280-7a23-11eb-9d52-c0c4685d2573.png)
+![](processor.jpg)
 
 ## Let's start this thing up.
 * Click on **Start** (with the green arrow)
