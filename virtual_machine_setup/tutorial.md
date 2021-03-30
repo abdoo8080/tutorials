@@ -63,8 +63,7 @@
  * **Type** - Linux
  * **Version** - Ubuntu (64-bit)
  
- ![](name_and_OS.jpg)
-![image](https://user-images.githubusercontent.com/49121005/109456021-89d4d880-7a1d-11eb-9565-d2a9301eb87c.png)
+![](name_and_OS.jpg)
 
 * Click **Continue**. For **Memory size** I recommend you give it at least 8GB (8192MB)of your memory. Click **Continue**.
  * *Note* - if you need to free up some memory space later, you can re-adjust it at anytime in the VirtualBox settings
