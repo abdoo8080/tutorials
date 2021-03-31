@@ -100,29 +100,29 @@
 * Click on **Start** (with the green arrow)
 * You will be prompted to enter a file. This is the **.iso** file you downloaded earlier.
 
-![image](https://user-images.githubusercontent.com/49121005/109459362-3e71f880-7a24-11eb-87e3-e409c2fa6247.png)
+![image](empty.jpg)
 
 * Click on the yellow folder icon then click on **Add** and go locate wherever you put the **.iso** file and select it. Then click **Start**. 
 
-![image](https://user-images.githubusercontent.com/49121005/109459562-a3c5e980-7a24-11eb-96e9-bd9666451aa7.png)
+![image](ubuntu-20.04-desktop.jpg)
 
 * Then Ubuntu will get powered up. It may take up some time to boot up.
 * Once powered up, you will be prompted for some simple configurations such as Language, Time Zone, etc..
 
 * Select **Install Ubuntu** when you get to the following configuration page:
 
-![image](https://user-images.githubusercontent.com/49121005/109459863-38304c00-7a25-11eb-956e-ab26973a7b3d.png)
+![image](language_welcome.jpg)
 
 * Then for the following page, choose the selected options:
-![image](https://user-images.githubusercontent.com/49121005/109460041-9eb56a00-7a25-11eb-98b0-4ac6f8926bd3.png)
+![image](updates_and_other_swe.jpg)
 
 * On the following page, choose **Erase disk and install Ubuntu**. Then click **Install Now**.
 
-![image](https://user-images.githubusercontent.com/49121005/109460159-c99fbe00-7a25-11eb-8f25-9e4bdbd27884.png)
+![image](installation_type.jpg)
 
 * Then click **Continue** for *writing the changes to disks*.
 
-![image](https://user-images.githubusercontent.com/49121005/109460639-86921a80-7a26-11eb-89d3-46ed4dc81c5e.png)
+![image](write_the_changes_to_disks.jpg)
 
 
 * The rest is straight forward.
