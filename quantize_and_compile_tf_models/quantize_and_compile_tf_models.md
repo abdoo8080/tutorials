@@ -35,7 +35,7 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
     cd <your model name>
     ```
     NOTE: `<your model name>` should not contain spaces.
-5. Copy your model and architecture files and training and testing datasets to you directory.
+5. Copy your model and architecture files and training and testing datasets to your directory:
     ```bash
     cp <path to model file> float_model.h5
     cp <path to arch.json file> .
@@ -53,7 +53,7 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
             |-- test
             |   |-- test dataset files
             |-- train
-            |   |-- train dataset files
+                |-- train dataset files
     ```
 7. Create a python script to quantize the model. Call it `quantize.py`.
     ```bash
@@ -84,7 +84,7 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
     ```bash
     conda activate vitis-ai-tensorflow2
     python3 quantize.py
-    vai_c_tensorflow2 --model quantized_model.h5 --arch arch.json --output_dir <your model name> --net_name <your model name>
+    vai_c_tensorflow2 --model quantized_model.h5 --arch arch.json --output_dir xmodel --net_name <your model name>
     ```
     NOTE: `<your model name>` should not contain spaces.
 10. Your final directory structure should look like the one below:
@@ -100,7 +100,7 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
             |   |-- test dataset files
             |-- train
             |   |-- train dataset files
-            |-- <your model name>
+            |-- xmodel
                 |-- <your model name>_org.xmodel
                 |-- <your model name>.xmodel
                 |-- md5sum.txt
@@ -108,4 +108,4 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
     ```
 
 ## Next Steps
-Now that you have quantized and compiled model, copy `<your model name>` directory into the SD card on the Ultra96v2 and follow the instructions in [Running a quantized model in the Ultra96v2](TODO).
+Now that you have quantized and compiled model, copy `xmodel` directory into the SD card on the Ultra96v2 and follow the instructions in [Running a quantized model in the Ultra96v2](TODO).
