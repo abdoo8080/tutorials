@@ -2,9 +2,8 @@
 ## Description
 This tutorial lists the steps to quantize and compile a TensorFlow 2 model into XRT graph that can run on the DPU of the Ultra96v2 board.
 
-## Pre-requisites
-- [Setting up VM Environment](../virtual_machine_setup/tutorial.md)
-- [Setting up Docker](TODO)
+## Pre-requisite
+- [Install Docker](../install_docker/install_docker.md)
 
 ## Requirements
 - TensorFlow 2 floating-point model in `h5` format (we will refer to it as `float_model.h5`).
@@ -12,6 +11,10 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
 - The architecture file (`arch.json`) for the hardware platform. For the pre-built images in Mario's tutorial, this file can be found in the BOOT partition of the Ultra96v2 SD card.
 
 ## Steps
+0. If you have not done so already, open up a terminal and install `git`:
+    ```
+    sudo apt install git
+    ```
 1. Open up a terminal and clone version 1.3 of Vitis-AI's github repository:
     ```bash
     mkdir -p ~/project/2020.2
