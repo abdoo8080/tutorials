@@ -13,7 +13,7 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
 1. Go to [Xilinx Downloads](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis.html) website and click on `Xilinx Vitis 2020.2: All OS installer Single-File Download` link.
 ![Click on All OS installer](all_os_installer.png "Click on All OS installer")
 2. A sign in window will show up. If you do not have an account with Xilinx, click on `Sign up`. Otherwise, sign in with your credentials and click on `Download`.
-3. When the download is done, right click on your desktop and click on `Open Terminal`. Run the following command. Run the following commands to extract the compressed file:
+3. When the download is done, right click on your desktop and click on `Open Terminal`. Run the following commands to extract the compressed file:
     ```bash
     cd ~/Downloads
     tar -xf Xilinx_Unified_2020.2_1118_1232.tar.gz
@@ -21,7 +21,9 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
 4. After extracting the file, run the following commands to start the installer:
     ```bash
     cd Xilinx_Unified_2020.2_1118_1232
-    sudo ./xsetup
+    sudo mkdir -p /tools/Xilinx
+    sudo chown $USER /tools/Xilinx
+    ./xsetup
     ```
 5. The welcome screen for Xilinx Unified 2020.2 Installer will pop up. Hit `Next`.
 6. On the next screen. `Vitis` will be selected as the product to install. Leave `Vitis` and hit `Next`.
@@ -36,17 +38,17 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
 13. Xilinx Information Center will pop-up asking you to install updates. Ignore the updates for now and close the window.
 14. Run the following commands to install a number of necessary packages for the Vitis tools:
     ```bash
-    cd /tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
-    sudo installLibs.sh
-    sudo apt install make
+    cd /tools/Xilinx/Vitis/2020.2/scripts
+    sudo ./installLibs.sh
+    sudo apt install -y make
     ```
 14. Now that Vitis and Vivado are installed, the only step left is to add the bdf files for the Ultra96v2. Those files contains necessary information for Vivado to target the Ultra96v2 board for hardware designs. Open up a terminal and run the following commands:
     ```bash
-    sudo apt install git
+    sudo apt install -y git
     mkdir -p ~/project/2020.2
     cd ~/project/2020.2
     git clone https://github.com/Avnet/bdf
-    sudo cp -r ~/project/2020.2/bdf/ultra96v2 /tools/Xilinx/Vivado/2020.2/data/boards/board_files
+    cp -r ~/project/2020.2/bdf/ultra96v2 /tools/Xilinx/Vivado/2020.2/data/boards/board_files
     cd /tools/Xilinx/Vitis/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers
     sudo ./install_drivers
     ```

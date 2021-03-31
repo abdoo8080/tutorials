@@ -8,7 +8,7 @@ This tutorial lists the steps to quantize and compile a TensorFlow 2 model into 
 ## Requirements
 - TensorFlow 2 floating-point model in `h5` format (we will refer to it as `float_model.h5`).
 - Training and test datasets. Those are needed to ensure that there is no loss in accuracy in the quantization step.
-- The architecture file (`arch.json`) for the hardware platform. For the pre-built images in Mario's tutorial, this file can be found in the BOOT partition of the Ultra96v2 SD card.
+- The architecture file (`arch.json`) for the hardware platform. For the pre-built SD card image for the Ultra96v2 in Mario's [Vitis-AI 1.3](https://www.hackster.io/AlbertaBeef/vitis-ai-1-3-flow-for-avnet-vitis-platforms-cd0c51) tutorial, this file can be found in the BOOT partition.
 
 ## Steps
 0. If you have not done so already, open up a terminal and install `git`:
