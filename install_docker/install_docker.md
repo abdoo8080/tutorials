@@ -1,4 +1,4 @@
-# Quantizing and Compiling TensorFlow 2 Models
+# Install Docker
 ## Description
 This tutorial lists the steps to install and setup docker in your Ubuntu VM.
 
