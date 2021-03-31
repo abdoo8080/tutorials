@@ -50,5 +50,6 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
     cd /tools/Xilinx/Vitis/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers
     sudo ./install_drivers
     ```
+
 ## Next Steps
 Now that you have installed Vitis and Vivado IDEs, you can move on to the next tutorial and create a simple [Hello World Hardware Design in Vivado](../hello_world_hw/hello_world_hw.md).
