@@ -33,7 +33,7 @@
 ![image](2nd_app.jpg)
 
 * Select the platfrom we have already created above then click *Next*
-![image](platform_selected)
+![image](platform_selected.jpg)
 
 * Enter a name for the application then click *Next*
 ![image](app_name.jpg)
