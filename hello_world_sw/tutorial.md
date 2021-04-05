@@ -5,7 +5,7 @@
 
 ## Prerequisites
 - Xilinx Vitis IDE - [install vivado & vitis](../install_vitis_and_vivado/install_vitis_and_vivado.md)
-- An XSA file generated - [hello world tutorial](../hello_world_hw/hello_world_hw.m)
+- A hardware .xsa file - [hello world tutorial](../hello_world_hw/hello_world_hw.m)
 - Ultra96v2 board
 
 
