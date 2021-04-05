@@ -23,7 +23,7 @@
 * Click *Finish*
 
 
-## Creating the hello world applicatioin
+## Creating the hello world application
 #### Now that we have created the platform, let's create a new hello world application for it to run on top of it.
 
 * Click *File* -> *Application Project...*
