@@ -22,3 +22,26 @@
 
 * Click *Finish*
 
+
+## Creating the hello world applicatioin
+#### Now that we have created the platform, let's create a new hello world application for it to run on top of it.
+
+* Click *File* -> *Application Project...*
+![image](new_app.jpg)
+
+* Click *Next*
+![image](2nd_app.jpg)
+
+* Select the platfrom we have already created above then click *Next*
+![image](platform_selected)
+
+* Enter a name for the application then click *Next*
+![image](app_name.jpg)
+
+* The *Domain* page should be the same as the screen shot below then click *Next*
+![image](domain.jpg)
+
+* Select the *Hello World* as the development template then click *Finish*
+![image](hw_template.jpg)
+
+
