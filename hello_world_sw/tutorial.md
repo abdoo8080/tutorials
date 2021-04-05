@@ -12,13 +12,13 @@
 ## Creating the hardware design platform
 
 * Open vitis and click on *Create Platform Project*
-[!image](vitis_first.jpg)
+![image](vitis_first.jpg)
 
 * Enter a platform project name then click *Next*
-[!image](platform_prj_name.jpg)
+![image](platform_prj_name.jpg)
 
 * Click *Browse...* and go find the **.xsa** file you exported in [hello world tutorial](../hello_world_hw/hello_world_hw.m)
-[!image](xsa.jpg)
+![image](xsa.jpg)
 
 * Click *Finish*
 
