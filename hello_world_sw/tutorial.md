@@ -12,7 +12,7 @@
 ## Creating the hardware design platform
 
 * Open vitis and click on *Create Platform Project*
-![image](vitis_first.jpg)
+![image](vitis_firstpg.jpg)
 
 * Enter a platform project name then click *Next*
 ![image](platform_prj_name.jpg)
