@@ -89,3 +89,4 @@
 * Let's go back to the terminal. You should see the hello world text printed on the minicom in the serial port1 we configured above.
 ![image](hw_text.jpg)
 
+## HOORAY! We're done. We just uploaded a hello world application on the hardware design that we built in [hello world tutorial](../hello_world_hw/hello_world_hw.m) using the Xilinx Vitis IDE. 
