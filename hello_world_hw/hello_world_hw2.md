@@ -50,7 +50,6 @@ vivado
     Click on `File` -> `Export` -> `Export Hardware`.
 ![Export](export_hw.jpg)
 20. Click `Next`.
-![Export Platform](export_platform.jpg)
 21. For the `Output` window, select `Include bitstream`. The software tools will need the bitstream to access the hardware.
 ![Include Bitstream](include_bit.jpg)
 22. Specify where you would like to save the XSA file. The XSA contains all information about the hardware design.
