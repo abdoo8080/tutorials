@@ -55,4 +55,4 @@ vivado
 ![XSA File](path.jpg)
 23. Click `Next`. A summary page will show up, then click `Finish`.
 
-### That's it! We have just built a simple hardware design from scratch using the Xilinx Vivado Design Tool. Reference the [software version of hello world](../hello_world_sw/tutorial.md) to upload a simple hello world software application on it using the Utlra96 FPGA as your actual hardware.
+### That's it! We have just built a simple hardware design from scratch using the Xilinx Vivado Design Tool. Reference the [software version of hello world](../hello_world_sw/tutorial.md) to upload a simple hello world software application on the design we've just built. 
