@@ -35,8 +35,8 @@ vivado
 ![Diagram](zynq_n_cw.jpg)
 14. Now let's wire some pins. To wire, simply hover over a pin and then click and drag. Make the following connections:
     - Connect `pl_clk0` of the `Zynq UltraScale+ MPSoC` to `clk_in1` of the `Clocking Wizard`.
-    - Connect `clk_out1` of the `Zynq UltraScale+ MPSoC` to `maxihpm0_lpd_aclk`.
-    - The complete design should look like figure below.
+    - Connect `clk_out1` of the `Clocking Wizard` to `maxihpm0_lpd_aclk` of the `Zynq UltraScale+ MPSoC`.
+    - The complete design should look like the figure below.
 ![Full Design](full_design.jpg) 
 15. Now that our design is complete, let's synthesize it. First, we need to to set a top-level entity via an HDL wrapper like shown below. Right click on the design name, `hello_world_hw`, to bring up the shown menu.
 ![HDL Wrapper](top_level.jpg)
