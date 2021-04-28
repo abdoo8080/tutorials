@@ -47,9 +47,9 @@ vivado
 18. Let's generate the bitstream. Click on `Generate Bitstream` under `PROGRAM AND DEBUG` on the left sidebar.
 ![Generate Bitstream](generate_bitstream.jpg)
 19. All we have to do now is export this hardware design so we can upload software applications on it in the Vitis or PetaLinux software tools. 
-    - Click on `File` -> `Export` -> `Export Hardware`
+    Click on `File` -> `Export` -> `Export Hardware`.
 ![Export](export_hw.jpg)
-20. Click next
+20. Click `Next`.
 ![Export Platform](export_platform.jpg)
 21. For the `Output` window, select `Include bitstream`. The software tools will need the bitstream to access the hardware.
 ![Include Bitstream](include_bit.jpg)
