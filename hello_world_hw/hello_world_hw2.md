@@ -42,8 +42,7 @@ vivado
 ![HDL Wrapper](top_level.jpg)
 16. Let's synthesize this thing. Simply press on `Run Synthesis` under the `Synthesis` dropdown on the left sidebar. Then click `OK` that comes up. The synthesis progress will be shown on the top right of the window.
 ![Synthesis](synthesize.jpg)
-
-17. When synthesis is done, a new GUI pops up asking you to `Run Implementation`. Hit `OK`.
+17. When synthesis is done, a new GUI pops up asking you to `Run Implementation`.
 ![Run Implementation](implementation.jpg)
 18. Let's generate the bitstream. Click on `Generate Bitstream` under `PROGRAM AND DEBUG` on the left sidebar.
 ![Generate Bitstream](generate_bitstream.jpg)
