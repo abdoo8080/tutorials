@@ -31,7 +31,7 @@ vivado
 ![New IP block](search_zynq.jpg "Press on `+`")
 12. The Zynq IP will look like the image below.
 ![Zynq IP](zynq.jpg)
-13. Let's add a `Clocking Wizard` IP to add generate a clock for the Zynq IP. Just like we looked up the Zynq IP, let's look up `Clocking Wizard` in the search bar then hit enter. The design should now consist of 2 IP blocks - `Zynq UltraScale+ MPSoC` and `Clocking Wizard`, as shown below.
+13. Let's add a `Clocking Wizard` IP to generate a clock for the Zynq IP. Just like we looked up the Zynq IP, let's look up `Clocking Wizard` in the search bar then hit enter. The design should now consist of 2 IP blocks - `Zynq UltraScale+ MPSoC` and `Clocking Wizard`, as shown below.
 ![Diagram](zynq_n_cw.jpg)
 14. Now let's wire some pins. To wire, simply hover over a pin and then click and drag. Make the following connections:
     - Connect `pl_clk0` of the `Zynq UltraScale+ MPSoC` to `clk_in1` of the `Clocking Wizard`.
