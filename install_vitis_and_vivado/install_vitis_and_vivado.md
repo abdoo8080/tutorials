@@ -31,18 +31,22 @@ This tutorial lists the steps to install the Vitis and Vivado IDEs in your Ubunt
 7. The next page will allow you to customize your installation. Leave the default selections and hit `Next`.
 8. The next page shows the license agreements. Accept all of them and hit `Next`.
 9. The next page shows the destination directory and the required disk space. If you had 200+ GB of free storage at the beginning of this tutorial, then you should have enough space left to go to the next step. Otherwise, try deleting `Xilinx_Unified_2020.2_1118_1232.tar.sz` to get ~45 GB back. Hit `Next`.
-10. A pop-up window will show up saying that `/tools/Xilinx` does not exits. Hit `Yes` to create the directory.
-11. The next page shows the Installation Summary. It should look like the one below. Hit `Install`.
+10. The next page shows the Installation Summary. It should look like the one below. Hit `Install`.
 ![Summary page](summary.png "Hit `Install`")
-12. A window will pop up to notify you when the installation is complete. Hit `OK` to close the window.
-13. Xilinx Information Center will pop-up asking you to install updates. Ignore the updates for now and close the window.
-14. Run the following commands to install a number of necessary packages for the Vitis tools:
+11. A window will pop up to notify you when the installation is complete. Hit `OK` to close the window.
+12. Xilinx Information Center will pop-up asking you to install updates. Ignore the updates for now and close the window.
+13. Run the following commands to install a number of necessary packages for the Vitis tools:
     ```bash
     cd /tools/Xilinx/Vitis/2020.2/scripts
     sudo ./installLibs.sh
     sudo apt install -y make
     ```
-14. Now that Vitis and Vivado are installed, the only step left is to add the bdf files for the Ultra96v2. Those files contains necessary information for Vivado to target the Ultra96v2 board for hardware designs. Open up a terminal and run the following commands:
+14. You should now see several icons like the one below on your Desktop that were added by the installer:  
+![Icon](icon.png "Icon")  
+Double clicking those icons will show the a promt like the one below:
+![Untrusted launcher](untrusted.png "Untrusted Launcher")
+Hit `Trust and Launch` to trust and launch the Xilinx IDEs.
+15. Now that Vitis and Vivado are installed, the only step left is to add the bdf files for the Ultra96v2. Those files contains necessary information for Vivado to target the Ultra96v2 board for hardware designs. Open up a terminal and run the following commands:
     ```bash
     sudo apt install -y git
     mkdir -p ~/project/2020.2

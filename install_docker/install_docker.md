@@ -28,7 +28,7 @@ This tutorial lists the steps to install and setup docker in your Ubuntu VM.
 5. Update the apt package index, and install the latest version of Docker Engine and containerd:
     ```bash
     sudo apt update
-    sudo apt install docker-ce docker-ce-cli containerd.io
+    sudo apt install -y docker-ce docker-ce-cli containerd.io
     ```
 6. Verify that Docker Engine is installed correctly by running the hello-world image.
     ```bash
