@@ -2,7 +2,7 @@
 ## Description
 
 ## Pre-requisites
-- [Setting up VM Environment](../Virtual%20Machine%20Set-up/Tutorial.md)
+- [Setting up VM Environment](../virtual_machine_setup/tutorial.md)
 - Installing Vitis & Vivado on the VM Environment
 - Installing the Ultra96v2 bdf Files
 
