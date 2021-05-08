@@ -26,6 +26,11 @@ This tutorial lists the steps to install the Petalinux tools in your Ubuntu VM. 
 ![Summary page](summary.png "Summary page")
 7. A window will pop up to notify you when the installation is complete. Hit `OK` to close the window.
 ![Confirmation](confirmation.png "Confirmation")
+8. Some Petalinux scripts do not work in Ubuntu's default system shell, `dash`. So, you need to reconfigure it to use `bash` instead. Run the following command on your terminal:
+    ```bash
+    sudo dpkg-reconfigure dash
+    ```
+   You will get a promt asking if you want to use `dash` as your default system shell. Select `No`. Close your terminal.
 
 ## Next Steps
 Now that you have installed Petalinux tools, you can move on to the next tutorial to [build a Petalinux OS](../build_petalinux_os/build_petalinux_os.md) for the Ultra96v2 development board.
