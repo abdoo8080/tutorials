@@ -9,6 +9,7 @@ This tutorial lists the steps to install the Petalinux tools in your Ubuntu VM. 
 ## Steps
 0. The following packages are required to install Petalinux tools:
     ```bash
+    sudo apt update
     sudo apt install -y python gawk gcc git make net-tools libncurses5-dev tftpd zlib1g:i386 libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev screen pax gzip
     ```
 1. Go to your Xilinx Unified Installer directory and run the installer:
