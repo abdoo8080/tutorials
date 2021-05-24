@@ -3,7 +3,6 @@
 This tutorial lists the steps to install the Petalinux tools in your Ubuntu VM. You will need to use those tools to configure the Petalinux OS kernel and hardware designs.
 
 ## Pre-requisites
-- [Setting up VM Environment](../virtual_machine_setup/tutorial.md)
 - [Install Vitis and Vivado IDEs](../install_vitis_and_vivado/install_vitis_and_vivado.md)
 
 ## Steps
