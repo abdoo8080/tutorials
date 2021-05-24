@@ -8,7 +8,8 @@ This tutorial lists the steps to install the Petalinux tools in your Ubuntu VM. 
 ## Steps
 0. The following packages are required to install Petalinux tools:
     ```bash
-    sudo apt-get install -y python gawk gcc git make net-tools libncurses5-dev tftpd zlib1g:i386 libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev screen pax gzip
+    sudo apt update
+    sudo apt install -y python gawk gcc git make net-tools libncurses5-dev tftpd zlib1g:i386 libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev screen pax gzip
     ```
 1. Go to your Xilinx Unified Installer directory and run the installer:
     ```bash
@@ -24,6 +25,11 @@ This tutorial lists the steps to install the Petalinux tools in your Ubuntu VM. 
 ![Summary page](summary.png "Summary page")
 7. A window will pop up to notify you when the installation is complete. Hit `OK` to close the window.
 ![Confirmation](confirmation.png "Confirmation")
+8. Some Petalinux scripts do not work in Ubuntu's default system shell, `dash`. So, you need to reconfigure it to use `bash` instead. Run the following command on your terminal:
+    ```bash
+    sudo dpkg-reconfigure dash
+    ```
+   You will get a promt asking if you want to use `dash` as your default system shell. Select `No`. Close all of your open terminal windows.
 
 ## Next Steps
 Now that you have installed Petalinux tools, you can move on to the next tutorial to [build a Petalinux OS](../build_petalinux_os/build_petalinux_os.md) for the Ultra96v2 development board.
